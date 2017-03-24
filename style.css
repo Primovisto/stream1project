@@ -177,3 +177,9 @@ header {
     text-transform:uppercase;
     text-decoration:none;
 }
+
+/*Jumbotron section*/
+.jumbotron-section{
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2din30p.jpg") no-repeat fixed 0 0 / cover;
+    position:relative;
+    height:100vh;
