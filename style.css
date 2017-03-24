@@ -141,10 +141,11 @@ html {
 /* Header */
 
 header {
-    background-color: rgba(255,255,255, 0.5)
+    background-color: rgba(255,255,255, 0.7) none repeat scroll 0 0;
     padding:20px 0px;
     width:100%;
     z-index:100;
     line-height:30px;
   
 }
+
