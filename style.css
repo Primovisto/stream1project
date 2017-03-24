@@ -149,3 +149,18 @@ header {
   
 }
 
+.menu {
+    text-align:right;
+    
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right:15px;
+    
+}
+
+.menu ul li a{
+    color:#888;
+    font-family:
