@@ -150,6 +150,8 @@ img {
 
 header {
     background-color: rgba(255,255,255, 0.7) none repeat scroll 0 0;
+    position:absolute;
+    top:0;
     padding:20px 0px;
     width:100%;
     z-index:100;
@@ -167,15 +169,21 @@ header {
     display: inline-block;
     margin-right:15px;
     list-style:none;
+    position:relative;
+    padding-top:10px;
     
 }
 
 .menu ul li a {
-    color:#888;
+    color:#444;
     font-family: 'Nunito', sans-serif;
     padding:10px;
     text-transform:uppercase;
     text-decoration:none;
+}
+
+.menu ul li:hover > a {
+    color: #888;
 }
 
 /*Jumbotron section*/
